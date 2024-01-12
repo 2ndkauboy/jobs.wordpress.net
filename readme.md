@@ -1,6 +1,6 @@
-# WordPress.tv local development environment
+# jobs.wordpress.net local development environment
 
-The details below will walk you through getting set up to contribute to the **code** behind https://wordpress.tv.
+The details below will walk you through getting set up to contribute to the **code** behind https://jobs.wordpress.net.
 
 ## Prerequisites
 - [Docker](https://docs.docker.com/get-docker/)

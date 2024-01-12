@@ -1,16 +1,16 @@
 {
     "require": {
-        "wordpress-meta/wptv2": "^2.0",
-        "wordpress-meta/wptvblog2": "^2.0",
-        "composer/installers": "^2.0@dev",
-        "wpackagist-plugin/jetpack": "^12.9@alpha"
+        "wordpress-meta-plugin/jobswp": "^2.0",
+        "wordpress-meta-theme/jobswp": "^2.0",
+        "composer/installers": "^2.0@dev"
     },
     "config": {
         "allow-plugins": {
             "composer/installers": true
         },
         "preferred-install": {
-            "wordpress-meta/*": "source"
+            "wordpress-meta-plugin/*": "source",
+            "wordpress-meta-theme/*": "source"
         }
     },
     "extra": {
@@ -30,23 +30,23 @@
             "type": "package",
             "package": [
                 {
-                    "name": "wordpress-meta/wptv2",
-                    "type": "wordpress-theme",
+                    "name": "wordpress-meta-plugin/jobswp",
+                    "type": "wordpress-plugin",
                     "version": "2.0",
                     "source": {
                         "type": "svn",
-                        "url": "https://meta.svn.wordpress.org/sites/trunk/wordpress.tv/public_html/wp-content/themes/",
-                        "reference": "wptv2/"
+                        "url": "https://meta.svn.wordpress.org/sites/trunk/jobs.wordpress.net/public_html/wp-content/plugins/",
+                        "reference": "jobswp/"
                     }
                 },
                 {
-                    "name": "wordpress-meta/wptvblog2",
+                    "name": "wordpress-meta-theme/jobswp",
                     "type": "wordpress-theme",
                     "version": "2.0",
                     "source": {
                         "type": "svn",
-                        "url": "https://meta.svn.wordpress.org/sites/trunk/wordpress.tv/public_html/wp-content/themes/",
-                        "reference": "wptvblog2/"
+                        "url": "https://meta.svn.wordpress.org/sites/trunk/jobs.wordpress.net/public_html/wp-content/themes/",
+                        "reference": "jobswp/"
                     }
                 }
             ]
